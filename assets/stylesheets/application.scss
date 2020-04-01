@@ -9,23 +9,24 @@ body {
 }
 
 .app {
-  margin:20px;
-
+  margin:60px 20px;
   display: flex;
   .cities {
     width: 40%;
-
   }
   .active-city {
     width: 70%;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 10px 15px;
+    margin:0px;
+    padding: 0px 15px;
     border-radius: 4px;
     h3 {
-      margin-top: 20px;
-      font-size:50px;
+      margin-top: 0px;
+      font-size:70px;
       font-family:'Oswald';
+    }
+    img {
+      width:95%;
+
 
     }
   }
@@ -33,13 +34,13 @@ body {
 
 .fixed {
   position:fixed;
-}
+ }
 
 #pick-city {
   font-family:'Oswald';
-  font-size:40px;
+  font-size:60px;
   text-align:center;
-  margin-top:20px;
+  margin-top:0px;
 }
 
 .list-group-item {
