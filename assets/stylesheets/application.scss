@@ -1,7 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Oswald&display=swap');
+
 body {
-  font-family: Helvetica;
+  font-family: 'Didact Gothic';
+  font-size:20px;
+  color: white;
+  background-color: black;
+
 }
+
 .app {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin:20px;
+
+  display: flex;
+  .cities {
+    width: 40%;
+
+  }
+  .active-city {
+    width: 70%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    h3 {
+      margin-top: 20px;
+      font-size:50px;
+      font-family:'Oswald';
+
+    }
+  }
+}
+
+.fixed {
+  position:fixed;
+}
+
+#pick-city {
+  font-family:'Oswald';
+  font-size:40px;
+  text-align:center;
+  margin-top:20px;
+}
+
+.list-group-item {
+  color:black;
+  font-weight:bold;
+  background-color: white;
+  cursor: pointer;
 }
